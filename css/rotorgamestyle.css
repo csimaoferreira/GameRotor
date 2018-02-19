@@ -1,0 +1,87 @@
+
+
+
+.class_div_CP_CT_plot{
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  width: 60%;
+  /*background-color: teal;*/
+  height: 60%;
+}
+
+.performance_output{
+  position: absolute;
+  top: 10%;
+  left: 70%;
+  /*background-color: teal;*/
+  width: 30%;*/
+}
+
+
+
+
+.design-sliders-selectors{
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  /*background-color: teal;*/
+  width: 80%;
+
+}
+
+.range-slider {
+  width: 100%;
+  margin: 0;
+}
+
+.range-slider__range {
+  -webkit-appearance: none;
+  width: 60%;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+  /*// Range Handle*/
+.range-slider__range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+
+/*// Range Label*/
+.range-slider__label {
+  display: inline-block;
+  position: relative;
+  width: 20%;
+  /*color: yellow;*/
+  line-height: 20px;
+  text-align: right;
+  border-radius: 3px;
+  background: none;
+  /*padding: 5px 10px;*/
+  /*margin-left: 8px;*/
+}
+
+.range-slider__value {
+  display: inline-block;
+  position: relative;
+  width: 10%;
+  /*color: yellow;*/
+  line-height: 20px;
+  text-align: left;
+  border-radius: 3px;
+  /*background: teal;*/
+  padding: 5px 10px;
+  /*margin-left: 8px;*/
+}

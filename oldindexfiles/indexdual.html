@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>AE4-135 Rotor/Wake Aerodynamics</title>
+
+  <!-- <link rel="stylesheet" href="css/reveal.css"> -->
+  <!-- <link rel="stylesheet" href="css/theme/tudelft_simple.css" id="theme"> -->
+  <!-- <link rel="stylesheet" href="lib/css/zenburn.css"> -->
+  <link rel="stylesheet" type="text/css" href="css/gamestyles.css">
+
+  <!-- <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_SVG"></script> -->
+  <!-- <script src="js\MathJax.js?config=TeX-AMS-MML_SVG"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/84/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- <script src="js/plot3Ddrawings.js" charset="utf-8"></script> -->
+</head>
+
+
+<body>
+
+
+
+
+  <div id="div_very_nice_rotor" style="width: 100%, height: 100%, float:center">
+
+  <div class="mainmenucontainer" id="main_menu_container">
+
+    <div class="header">
+      <h1><span>the</span>Wind Energy Game</h1>
+      <h2>Power your knowledge</h2>
+    </div>  <!-- finish heading -->
+
+    <!-- <div class="start_menu_style" id="game_start_menu">
+      <button  style="left:5%" onclick="game_HAWT_rotor_design_power_load.changeRotorBladeNumber('-')" class="button_game_menu">
+        Decrease number blades
+      </button>
+      <button  style="right:5%" onclick="game_HAWT_rotor_design_power_load.changeRotorBladeNumber('+')" class="button_game_menu">
+        Increase number blades
+      </button>
+    </div> -->
+
+    <div class="start_menu_style" id="game_start_menu">
+      <button  style="left:5%" onclick="game_HAWT_rotor_design_power_load.changeRotorSpeed('-')" class="button_game_menu">
+        Slow down
+      </button>
+      <button  style="right:5%" onclick="game_HAWT_rotor_design_power_load.changeRotorSpeed('+')" class="button_game_menu">
+        Speed up
+      </button>
+    </div>
+
+
+
+    <div class="message message--instructions" id="TUDelftMOOC">
+      Delft University of Technology<span>Wind Energy Massive Open Online Course</span>
+    </div>
+      <!-- close main menu -->
+  </div>
+
+</div>
+
+
+
+</body>
+
+<!--  scripts -->
+
+<script src="js/tools3Dscenes.js" charset="utf-8"></script>
+<script src="jsGameObjects/HAWTObject.js" type="text/javascript">  </script>
+<script src="jsGameObjects/game_HAWT_rotor_design.js" type="text/javascript"> </script>
+
+<script type="text/javascript">
+
+  game_HAWT_rotor_design_power_load.startGame(window.innerWidth, window.innerHeight, 'div_very_nice_rotor');
+
+
+</script>
+
+
+
+
+
+
+
+</html>
